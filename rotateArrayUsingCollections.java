@@ -10,6 +10,9 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]*/
 
 class rotateArrayUsingCollections {
     public void rotate(int[] nums, int k) {
+        k=k%nums.length;
+        if(nums.length!=1)
+        {
         List<Integer> list = new ArrayList<Integer>();
         for(int n : nums){
         list.add(n);
@@ -25,5 +28,6 @@ class rotateArrayUsingCollections {
             nums[val] = list.get(val);
             val++;
         }
+    }
     }
 }
