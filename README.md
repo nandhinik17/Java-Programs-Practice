@@ -67,4 +67,4 @@ to build **strong problem-solving skills** and apply them in **framework develop
 ---
 
 ⭐ *Maintained by [Nandhini Karuppusamy](https://www.linkedin.com/in/nandhini-karuppusamy)*  
-🎯 *Practicing 200+ DSA problems for consistent Java mastery and interview preparation.*
+🎯 *Practicing 200+ DSA problems for consistent Java mastery
