@@ -22,7 +22,7 @@ class Solution {
        for(int i=0; i<numRows; i++){
        List<Integer> result = new ArrayList<>();
         for(int j=0; j<=i; j++){
-               if(j==0 || i=='i'){
+               if(j==0 || i==j){
                 result.add(1);
                }
                else{
